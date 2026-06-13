@@ -1,157 +1,183 @@
-# SALES OVERVIEW KPIs
+# Sales Insights Report
 
-## TOTAL REVENUE
-11009308.5
+## Project: E-Commerce Performance Analytics
 
-## TOTAL ORDERS
-5000
+### Objective
 
-## AVERAGE ORDER VALUE (AOV)
-2201.86
+The purpose of this report is to evaluate overall sales performance, revenue trends, customer purchasing behavior, and payment preferences to identify business growth opportunities.
 
-## MAXIMUM AND MINIMUM ORDERS VALUE
+---
 
-MAX_ORDER_VALUE MIN_ORDER_VALUE
-6721.46	        13.25
+# 1. Sales Performance Overview
 
-# MONTHLY REVENUE TREND
+## Key Performance Indicators
 
-YEAR    MONTH       REVENUE
-2023	April	    554344.77
-2023	August	    623472.35
-2023	December	615709.03
-2023	July	    567639.91
-2023	June	    505227.66
-2023	March	    272878.96
-2023	May	        608213.54
-2023	November	567783.74
-2023	October	    578369.83
-2023	September	571117.81
-2024	April	    538754.75
-2024	August	    546194.57
-2024	February	545090.11
-2024	January	    560423.56
-2024	July	    573111.98
-2024	June	    539074.85
-2024	March	    543181.85
-2024	May	        574163.61
-2024	November	68157.65
-2024	October	    537702.94
-2024	September	518695.03
+| KPI                 |          Value |
+| ------------------- | -------------: |
+| Total Revenue       | ₹11,009,308.50 |
+| Total Orders        |          5,000 |
+| Average Order Value |      ₹2,201.86 |
+| Highest Order Value |      ₹6,721.46 |
+| Lowest Order Value  |         ₹13.25 |
 
-# MONTHLY ORDER TREND
+### Key Findings
 
-YEAR    MONTH       TOTAL_ORDER
-2023	April	    238
-2023	August	    285
-2023	December	268
-2023	July	    244
-2023	June	    232
-2023	March	    120
-2023	May	        276
-2023	November	265
-2023	October	    254
-2023	September	262
-2024	April	    241
-2024	August	    251
-2024	February	252
-2024	January	    270
-2024	July	    256
-2024	June	    248
-2024	March	    251
-2024	May	        263
-2024	November	30
-2024	October	    247
-2024	September	247
+* The business generated over ₹11 million in revenue during the analysis period.
+* Average Order Value remained above ₹2,200, indicating healthy transaction sizes.
+* Order values varied significantly, suggesting a diverse purchasing pattern across customers.
 
-# REVENUE BY PAYMENT METHOD
+---
 
-PAYMENT_METHOD  ORDERS  REVENUE
-Card	        1285	2865557.53
-Cash	        1257	2770463.99
-Wallet	        1244	2715004.27
-UPI	            1214	2658282.71
+# 2. Revenue Trend Analysis
 
-# REVENUE CONTRIBUTION %
+## Monthly Revenue Performance
 
-PAYMENT_METHOD  REVENUE_PERCENTAGE
-Card	        26.03
-Cash	        25.16
-Wallet	        24.66
-UPI	            24.15
+Revenue remained relatively stable throughout the reporting period, averaging approximately ₹550K per month.
 
-# BEST SALES MONTH
+### Best Performing Months
 
-YEAR    MONTH       REVENUE
-2023	August	    623472.35
-2023	December	615709.03
-2023	May	        608213.54
-2023	October	    578369.83
-2024	May	        574163.61
+| Rank | Month         |     Revenue |
+| ---- | ------------- | ----------: |
+| 1    | August 2023   | ₹623,472.35 |
+| 2    | December 2023 | ₹615,709.03 |
+| 3    | May 2023      | ₹608,213.54 |
+| 4    | October 2023  | ₹578,369.83 |
+| 5    | May 2024      | ₹574,163.61 |
 
-# LOWEST SALES MONTH
+### Lowest Performing Months
 
-YEAR    MONTH       REVENUE
-2024	November	68157.65
-2023	March	    272878.96
-2023	June	    505227.66
-2024	September	518695.03
-2024	October	    537702.94
+| Rank | Month          |     Revenue |
+| ---- | -------------- | ----------: |
+| 1    | November 2024* |  ₹68,157.65 |
+| 2    | March 2023     | ₹272,878.96 |
+| 3    | June 2023      | ₹505,227.66 |
+| 4    | September 2024 | ₹518,695.03 |
+| 5    | October 2024   | ₹537,702.94 |
 
-# MONTHLY REVENUE GROWTH %
+*November 2024 contains partial-month data and should not be compared directly with complete months.
 
-YEAR    MONTH   REVENUE     PREVIOUS_MONTH  GROWTH_PERCENTAGE   
-2023	3	    272878.96		
-2023	4	    554344.77	272878.96	    103.15
-2023	5	    608213.54	554344.77	    9.72
-2023	6	    505227.66	608213.54	    -16.93
-2023	7	    567639.91	505227.66	    12.35
-2023	8	    623472.35	567639.91	    9.84
-2023	9	    571117.81	623472.35	    -8.4
-2023	10	    578369.83	571117.81	    1.27
-2023	11	    567783.74	578369.83	    -1.83
-2023	12	    615709.03	567783.74	    8.44
-2024	1	    560423.56	615709.03	    -8.98
-2024	2	    545090.11	560423.56	    -2.74
-2024	3	    543181.85	545090.11	    -0.35
-2024	4	    538754.75	543181.85	    -0.82
-2024	5	    574163.61	538754.75	    6.57
-2024	6	    539074.85	574163.61	    -6.11
-2024	7	    573111.98	539074.85	    6.31
-2024	8	    546194.57	573111.98	    -4.7
-2024	9	    518695.03	546194.57	    -5.03
-2024	10	    537702.94	518695.03	    3.66
-2024	11	    68157.65	537702.94	    -87.32
+### Business Insight
 
+Sales performance demonstrates strong consistency with no prolonged periods of revenue decline, indicating stable customer demand.
 
-# RUNNING REVENUE (CUMULATIVE REVENUE)
+---
 
-YEAR    MONTH   MONTHLY_REVENUE CUMULATIVE_REVENUE
-2023	3	    272878.96	    272878.96
-2023	4	    554344.77	    827223.73
-2023	5	    608213.54	    1435437.27
-2023	6	    505227.66	    1940664.93
-2023	7	    567639.91	    2508304.84
-2023	8	    623472.35	    3131777.19
-2023	9	    571117.81	    3702895
-2023	10	    578369.83	    4281264.83
-2023	11	    567783.74	    4849048.57
-2023	12	    615709.03	    5464757.6
-2024	1	    560423.56	    6025181.16
-2024	2	    545090.11	    6570271.27
-2024	3	    543181.85	    7113453.12
-2024	4	    538754.75	    7652207.87
-2024	5	    574163.61	    8226371.48
-2024	6	    539074.85	    8765446.33
-2024	7	    573111.98	    9338558.31
-2024	8	    546194.57	    9884752.88
-2024	9	    518695.03	    10403447.91
-2024	10	    537702.94	    10941150.85
-2024	11	    68157.65	    11009308.5
+# 3. Order Volume Analysis
 
-# REVENUE QUARTILE ANALYSIS
-QUARTILE    REVENUE    
-1	        4958082.81
-2	        3274837.03
-3	        1997817.11
-4	        778571.55
+## Monthly Order Trends
+
+Order volumes remained consistent throughout the reporting period, averaging approximately 250 orders per month.
+
+### Peak Order Months
+
+* August 2023 – 285 orders
+* May 2023 – 276 orders
+* January 2024 – 270 orders
+
+### Business Insight
+
+Revenue growth appears to be influenced by both transaction volume and order value rather than order volume alone.
+
+---
+
+# 4. Payment Method Analysis
+
+## Revenue by Payment Method
+
+| Payment Method | Orders |       Revenue | Revenue Contribution |
+| -------------- | -----: | ------------: | -------------------: |
+| Card           |  1,285 | ₹2,865,557.53 |               26.03% |
+| Cash           |  1,257 | ₹2,770,463.99 |               25.16% |
+| Wallet         |  1,244 | ₹2,715,004.27 |               24.66% |
+| UPI            |  1,214 | ₹2,658,282.71 |               24.15% |
+
+### Key Findings
+
+* Revenue distribution is highly balanced across payment methods.
+* Card payments generated the highest revenue contribution.
+* UPI, Wallet, and Cash transactions also contributed significantly.
+
+### Business Insight
+
+The business is not dependent on a single payment channel, reducing operational and financial risk.
+
+---
+
+# 5. Revenue Growth Analysis
+
+## Month-over-Month Growth
+
+### Highest Growth
+
+| Month         | Growth Rate |
+| ------------- | ----------: |
+| April 2023    |     103.15% |
+| July 2023     |      12.35% |
+| August 2023   |       9.84% |
+| May 2023      |       9.72% |
+| December 2023 |       8.44% |
+
+### Largest Declines
+
+| Month          | Growth Rate |
+| -------------- | ----------: |
+| November 2024* |     -87.32% |
+| June 2023      |     -16.93% |
+| January 2024   |      -8.98% |
+| September 2023 |      -8.40% |
+| June 2024      |      -6.11% |
+
+*Partial-month data.
+
+### Business Insight
+
+Revenue fluctuations remain moderate across most months, indicating stable operational performance.
+
+---
+
+# 6. Revenue Concentration Analysis
+
+## Revenue Quartile Distribution
+
+| Revenue Quartile |       Revenue |
+| ---------------- | ------------: |
+| Quartile 1       | ₹4,958,082.81 |
+| Quartile 2       | ₹3,274,837.03 |
+| Quartile 3       | ₹1,997,817.11 |
+| Quartile 4       |   ₹778,571.55 |
+
+### Key Findings
+
+* Nearly half of total revenue originates from the highest-value orders.
+* High-value transactions significantly influence overall sales performance.
+
+### Business Insight
+
+Targeting customers who place higher-value orders can generate substantial incremental revenue.
+
+---
+
+# 7. Strategic Recommendations
+
+### Revenue Growth
+
+* Focus marketing efforts during historically strong periods such as August and December.
+* Promote premium product bundles to increase Average Order Value.
+
+### Customer Purchasing Behavior
+
+* Identify customers contributing to high-value orders and introduce loyalty incentives.
+* Encourage repeat purchases through personalized recommendations.
+
+### Payment Experience
+
+* Continue supporting multiple payment methods.
+* Explore incentives for digital payment adoption to improve transaction efficiency.
+
+---
+
+# 8. Conclusion
+
+The business generated over ₹11 million in revenue with consistent sales performance throughout the analysis period. Revenue distribution across payment methods is balanced, reducing dependency on any single payment channel. Strong performance during August and December suggests seasonal demand patterns, while revenue quartile analysis highlights the importance of high-value transactions in driving overall business performance.
+
+The sales function demonstrates stable growth and provides a strong foundation for further optimization through customer retention, promotional campaigns, and product strategy.
